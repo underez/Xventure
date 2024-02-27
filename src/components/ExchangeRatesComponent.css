@@ -1,0 +1,64 @@
+.exchange-rate-container {
+  max-width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  color: white; 
+}
+
+.currency-selectors {
+  width: 450px;
+  margin-top: 15px;
+  
+}
+
+.currency-selectors .label {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  
+ 
+}
+
+.currency-selectors select {
+  width: 100%; 
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+
+.currency-selectors input {
+  width: 100%; 
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.exchange-rate-info h2 {
+  margin-bottom: 10px;
+  margin-top: 10px;;
+  text-align: center;
+
+}
+
+.exchange-rate-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.exchange-rate-info li {
+  margin-bottom: 6px;
+  font-size: 30px;
+  text-align: center;
+}
+

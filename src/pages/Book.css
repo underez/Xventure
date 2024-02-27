@@ -1,0 +1,74 @@
+
+  .start-journey {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	color: black; 
+	font-size: 40px; 
+  }
+  
+
+.booking-container {
+	position: relative;
+	background-image: url(/public/images/background.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .form-box {
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	padding: 40px;
+	width: 800px;
+	height: 450px;
+	margin-bottom: 60px;
+	display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 	
+  }
+  
+  .booking-form {
+	width: 400px;
+	display: flex; 
+	flex-direction: column; 
+    justify-content: center; 
+
+	
+  }
+  
+  .form-group {
+	margin-bottom: 20px;
+  }
+  
+  .form-control {
+	width: 100%;
+	padding: 15px;
+	border-radius: 8px;
+	border: 1px solid #ccc;
+	font-size: 18px;
+  }
+  
+  .btn-primary {
+	background-color: #007bff;
+	display: inline-block;
+	color: white;
+	border: none;
+	padding: 15px 30px;
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: 18px;
+	transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+	background-color: #0056b3;
+  }
+  
