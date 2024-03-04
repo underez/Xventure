@@ -5,7 +5,7 @@ const ExchangeRatesComponent = () => {
   const [exchangeRates, setExchangeRates] = useState({});
   const [baseCurrency, setBaseCurrency] = useState('USD');
   const [targetCurrency, setTargetCurrency] = useState('EUR');
-  const [amount, setAmount] = useState(1); // Default to 1
+  const [amount, setAmount] = useState(0); // Default to 1
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
@@ -77,7 +77,7 @@ const ExchangeRatesComponent = () => {
         </label>
         <label className='label'>
           Amount:
-          <input type="number" value={amount} onChange={handleAmountChange} />
+          <input type="number" value={amount??0} onChange={handleAmountChange} />
         </label>
       </div>
       {loading ? (

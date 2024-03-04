@@ -52,8 +52,12 @@ return (
               value={destination} 
               onChange={handleDestinationChange}
               className="form-control"
-            >
-            <option value="">Select Destination</option>
+              options={destination}
+  
+>
+
+
+          <option value="">Select Destination</option>
             <option value="USA">USA</option>
             <option value="Canada">Canada</option>
             <option value="Australia & New Zealand">Australia & New Zealand</option>

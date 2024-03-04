@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/travel_agent/static/css/main.1de4191f.css",
+    "main.js": "/travel_agent/static/js/main.47866095.js",
+    "static/media/img-2.jpg": "/travel_agent/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
+    "static/media/img-1.jpg": "/travel_agent/static/media/img-1.53f4843759ebec256cb9.jpg",
+    "static/media/background.jpg": "/travel_agent/static/media/background.df3c8231ed7ebf8371ba.jpg",
+    "static/media/img-8.jpg": "/travel_agent/static/media/img-8.fabdf94dc5be2d3dc707.jpg",
+    "index.html": "/travel_agent/index.html",
+    "main.1de4191f.css.map": "/travel_agent/static/css/main.1de4191f.css.map",
+    "main.47866095.js.map": "/travel_agent/static/js/main.47866095.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1de4191f.css",
+    "static/js/main.47866095.js"
+  ]
+}
