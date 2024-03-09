@@ -45,7 +45,7 @@ const ExchangeRatesComponent = () => {
 
   return (
     <div className='exchange-rate-container'>
-      <h2>Exchange Rates</h2>
+      <h1>Exchange Rates</h1>
       <div className="currency-selectors">
         <label className='label'>
           Base Currency:

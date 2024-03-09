@@ -15,7 +15,7 @@ const Herosection = () => {
 
   return (
     <div className='hero-container'>
-      <video src="/videos/video-1.mp4" autoPlay loop muted />
+      <video src="./videos/video-1.mp4" autoPlay loop muted />
       <h1>Adventure Awaits</h1>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
@@ -39,7 +39,7 @@ const Herosection = () => {
 
       {showVideoPopup && (
         <div className="video-popup">
-          <video src="/videos/video-2.mp4" autoPlay controls />
+          <video src="./videos/video-2.mp4" autoPlay controls />
           <button onClick={closeVideoPopup}>Close</button>
         </div>
       )}
