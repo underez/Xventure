@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Xventure/static/css/main.0f2e502f.css",
-    "main.js": "/Xventure/static/js/main.a9818a59.js",
+    "main.js": "/Xventure/static/js/main.024480ee.js",
     "static/media/img-2.jpg": "/Xventure/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
     "static/media/img-1.jpg": "/Xventure/static/media/img-1.53f4843759ebec256cb9.jpg",
     "static/media/background.jpg": "/Xventure/static/media/background.df3c8231ed7ebf8371ba.jpg",
     "static/media/img-8.jpg": "/Xventure/static/media/img-8.fabdf94dc5be2d3dc707.jpg",
     "index.html": "/Xventure/index.html",
     "main.0f2e502f.css.map": "/Xventure/static/css/main.0f2e502f.css.map",
-    "main.a9818a59.js.map": "/Xventure/static/js/main.a9818a59.js.map"
+    "main.024480ee.js.map": "/Xventure/static/js/main.024480ee.js.map"
   },
   "entrypoints": [
     "static/css/main.0f2e502f.css",
-    "static/js/main.a9818a59.js"
+    "static/js/main.024480ee.js"
   ]
 }
